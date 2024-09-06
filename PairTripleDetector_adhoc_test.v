@@ -18,6 +18,8 @@ module Top();
 
   PairTripleDetector dut
   (
+    // Take WIRE dut_in0 of parent module (Top) and connect it to port in0 of 
+    //the child module (pairTripdec). 
     .in0 (dut_in0),
     .in1 (dut_in1),
     .in2 (dut_in2),
